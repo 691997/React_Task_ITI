@@ -1,0 +1,126 @@
+:root {
+    --title_font_size : 3rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.head_contant {
+    position: absolute;
+    color: azure;
+    top: 50%;
+    left: 8vw;
+    transform: translatey(-50%);
+    text-align: center;
+}
+.head_contant h1 {
+    font-size: var(--title_font_size);
+    color: tomato;
+}
+.head_contant p {
+    font-size: 2rem;
+}
+.btn {
+    box-shadow: none !important;
+    margin-top: 2rem;
+}
+
+/* ---------------------------------------------------------------- */
+/* About */
+
+.all_about .about_left {
+    text-align: center;
+    text-shadow: -2px 4px 3px #777777c2;
+}
+
+.all_skill {
+    background-color: #161819;
+    color: cornsilk; 
+    padding-bottom: 4rem;
+}
+
+.all_skill h2 ,
+.portfolio_container h2 {
+    font-size: var(--title_font_size);
+    padding: 3rem 0;
+    text-align: center;
+    text-shadow: -2px 4px 3px #777777c2;
+    
+}
+.all_skill p {
+    padding: 0 5rem 3rem;
+    text-align: center;
+    margin-bottom: 4rem ;
+}
+li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.all_skill li:nth-child(1){
+    border-bottom: 1px solid #eee;
+}
+.rate {
+    height: 3rem !important;
+    border-radius: 2px;
+    color: #000;
+    margin: 1rem;
+}
+.lang {
+    font-size: 1rem;
+    line-height: 3rem;
+    color: aliceblue;
+    background-color: #a95a5a;
+    width: 5.5rem;
+    text-align: center;
+}
+/* ----------------------------------------------------------------- */
+/* Portfolio */
+.card {
+    width: 18rem;
+    height: 15rem ;
+    margin: 20px;
+    align-items: center;
+}
+.card-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.color_1 ,
+.color_2 {
+    color: azure;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.color_1 {
+    background-color: darkgrey !important;
+}
+.color_2 {
+    background-color: #161819d6  !important;
+}
+footer {
+    min-height: 10rem;
+    background-color: #161819 ;
+    padding: 3rem;
+    color: azure;
+    margin-top: 3rem;
+}
+footer i {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
